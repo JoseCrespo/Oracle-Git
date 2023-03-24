@@ -1,0 +1,7 @@
+CREATE OR REPLACE PROCEDURE "JOSE".procPrintHelloWorld
+IS
+BEGIN
+
+  DBMS_OUTPUT.PUT_LINE('Hello World!');
+
+END;

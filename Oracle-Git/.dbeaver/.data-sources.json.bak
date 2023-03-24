@@ -1,0 +1,56 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-1870df8b609-6431914f938487ab": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XEPDB1",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XEPDB1",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XEPDB1",
+				"configurationType": "MANUAL",
+				"home": "C:\\cygwin64\\home\\jose\\.sdkman\\candidates\\java\\17.0.2-oracle",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-1870e55c349-4d88fd16bedf1987": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XEPDB1 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1522",
+				"database": "XEPDB1",
+				"url": "jdbc:oracle:thin:@//localhost:1522/XEPDB1",
+				"configurationType": "MANUAL",
+				"home": "C:\\cygwin64\\home\\jose\\.sdkman\\candidates\\java\\17.0.2-oracle",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
